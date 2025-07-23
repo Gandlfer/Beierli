@@ -5,7 +5,7 @@ import AppRoutes from './app/routes/AppRoutes'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Beierli">
       <AppRoutes/>
     </BrowserRouter>
   )
